@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whyte Gallery App</title>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light brand-font">
+        <span class="navbar-brand  mb-0 h1">100Ghs for Whyte </span>
+    </nav>
+
+    <div class="container full">
+        <div class="row">
+            <div class="col left">
+               
+                <img id="gallery" class="img-fluid" src="images/1.jpg" alt="Responsive image" >
+            </div>
+
+            <div class="col ">   
+                <div>
+                    <div class="vl">
+                        <div class="text">
+                            <h5 class="captitle">Caption</h5>
+                            <div class="captext" id="caption">
+                                This picture was downloaded from google to win 100 cedis feel free to comment
+
+                            </div>
+                                
+            
+                        </div>  
+
+                    </div>
+                    <div class="buttons">
+                      <button type="button"  id="prev" class="btn btn-outline-primary">Previous</button>
+                      <button type="button" id="next" class="btn btn-primary">Next</button>
+
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="comments">
+                <div class="row">
+                    <h6 class="comtitle"><strong>Comments</strong></h6>
+                </div>
+                <div class="com" id="com">
+                     
+                </div>
+                <div class="row">
+                    <div class="val" id= "val">
+
+                    </div>
+
+                </div>
+               
+                <div class="row input">
+                    <div class="input user" >
+                        <input type="text" id="username" class="form-control" placeholder="Username">
+
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" id="comfield" class="form-control" placeholder="Your comment"  aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-primary" id="combutton" type="submit"  id="button-addon2">Comment</button>
+                        </div>
+                      </div>
+                    <div class="ran">
+                        Do not show mercy &#128540;
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+ 
+    </div>
+    
+    <script src="main.js"></script>
+   
+</body>
+</html>

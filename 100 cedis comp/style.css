@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Krona One', sans-serif;
+}
+
+.left img{
+    max-height: 500px;
+    max-width: 700px;
+    margin-bottom: 10px;
+    border-radius: 5px;;
+}
+.captitle{
+    color: gray;
+    font-family: 'Krona One', sans-serif;
+}
+.comtitle{
+    font-family: 'Krona One', sans-serif;
+}
+.vl{
+
+  border-left: 1px  solid lightgrey;
+  height: auto;
+  left: 0%;
+  margin-left: -3px;
+  top: 0;
+}
+.text{
+    margin-left: 5px;
+    max-width: 250px;   
+}
+
+.buttons{
+    margin-top: 10px;;
+}
+.comments{
+    margin-top: 20px;
+}
+.com img{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;;
+}
+.com img :hover{
+    cursor: pointer;
+}
+.user{
+    margin-bottom: 10px;;
+}
+.input{
+    margin-top: 2px;
+    max-width: 500px;;
+}
+.val{
+    margin-top: 10px;
+    color: red;
+    font-size: 15px;
+}
+@media only screen and (max-width:700px){
+    .full{
+        width: 50%;
+        margin:6px 0;
+
+
+    }
+}
+@media only screen and (max-width:500px){
+    .full{
+        width: 10%;
+        
+        
+
+    }
+}
